@@ -7,23 +7,47 @@ body{
     background-color: black;
 }
 
-h1, h2, h3, h4, h5, a, p {
+h1, h2, h3, h4, h5, p {
+    font-family: Helvetica , sans-serif;
+    font-size: 22px;
+    color: rgb(212, 212, 212);
+    opacity: 0.8;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2.4em;
+}
+
+a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
     color: seashell;
-    opacity: 0.8;
+    
 }
+
+
+
+
+header {
+    display: block;
+}
+
 
 /* navigation bar */
 
 .nav-bar {
+    width: 100%;
+    display: inline-flex;
     justify-content: space-between;
     align-items: center;
-    display: flex;
     flex-wrap: wrap;
-
     box-sizing: border-box;
     border-bottom: 1px solid seashell;
+    position:fixed;
+    background-color: black;
+    z-index: 99;
+
 }
 
 #logo {
@@ -35,6 +59,30 @@ h1, h2, h3, h4, h5, a, p {
     display: inline-flex;
     justify-content: space-around;
     flex-basis: 380px;
-    min-width: 330px;
 }
 
+.hero {
+    padding-top: 50px;
+    height:700px;
+    max-width: 1300px;
+    margin: auto;
+    background: url(../img/img-mission-background.webp) center center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.our-mission{
+    width:100%;
+    background: black;
+    text-align: center;
+}
+
+/* Tea of the month */
+
+
+.card > img {
+    margin-bottom: 10px;
+}
