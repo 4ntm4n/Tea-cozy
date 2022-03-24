@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, a, p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
     color: seashell;
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 /* navigation bar */
@@ -23,18 +23,18 @@ h1, h2, h3, h4, h5, a, p {
     flex-wrap: wrap;
 
     box-sizing: border-box;
-    border: 3px solid white;
+    border-bottom: 1px solid seashell;
+}
+
+#logo {
+    height: 50px;
+    margin: 10px;
 }
 
 #main-nav {
     display: inline-flex;
     justify-content: space-around;
     flex-basis: 380px;
-
-}
-
-#logo {
-    height: 50px;
-    margin: 10px;
+    min-width: 330px;
 }
 
