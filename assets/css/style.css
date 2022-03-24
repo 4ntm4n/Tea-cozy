@@ -64,7 +64,7 @@ header {
 .hero {
     padding-top: 50px;
     height:700px;
-    max-width: 1300px;
+    max-width: 1200px;
     margin: auto;
     background: url(../img/img-mission-background.webp) center center no-repeat;
     background-size: cover;
@@ -82,6 +82,35 @@ header {
 
 /* Tea of the month */
 
+.featured-tea {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.intro {
+    text-align: center;
+}
+
+.row {
+    background-color: red;
+
+    display: flex;
+    justify-content: space-around;
+    
+    flex-wrap: wrap;
+    
+}
+
+.card {
+    flex-basis: 300px;
+    background-color: orange;
+    border: 1px solid white;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    flex-shrink: 3;
+}
 
 .card > img {
     margin-bottom: 10px;
