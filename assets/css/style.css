@@ -103,33 +103,74 @@ header {
 
 }
 
-.flexbox:before, .flexbox:after  {
-    content: none;
-  }
-
-
 .row {
-    margin: 15px auto;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
 .row-two {
-    margin: 15px auto;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin:auto 100px;
 }
 
 
 .card {
     text-align: center;
-    margin: 0 10px;
+    margin: 0 10px 20px 10px;
+    width:300px;
 }
 
 .card > img {
     max-width:300px;
-    max-height:200px;
     margin-bottom: -15px;
 }
+
+/* locations */
+
+.locations h1, h2, h3, p {
+    opacity: 1;
+}
+
+.locations{
+    max-width: 1200px;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+    background: url(../img/img-locations-background.webp) top center no-repeat;
+    background-size: cover;
+}
+
+
+
+.location {
+    margin:  20px;
+    background: black;
+    line-height: 2;
+}
+
+
+/* footer */
+footer{
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+#copy{
+    text-align: left;
+    margin:30px 20px;
+}
+
+
+/* note: cards has same styling as in 'tea of the month' section */
