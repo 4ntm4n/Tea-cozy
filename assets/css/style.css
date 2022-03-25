@@ -26,7 +26,10 @@ a {
     
 }
 
-
+a:hover {
+    color: rgb(97, 97, 97);
+    
+}
 
 
 header {
@@ -78,6 +81,7 @@ header {
     width:100%;
     background: black;
     text-align: center;
+  
 }
 
 /* Tea of the month */
@@ -85,33 +89,47 @@ header {
 .featured-tea {
     max-width: 1200px;
     margin: auto;
+
 }
 
 .intro {
     text-align: center;
 }
 
-.row {
-    background-color: red;
-
+.cards{
     display: flex;
-    justify-content: space-around;
-    
     flex-wrap: wrap;
-    
+    justify-content: space-around;
+
 }
 
+.flexbox:before, .flexbox:after  {
+    content: none;
+  }
+
+
+.row {
+    margin: 15px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.row-two {
+    margin: 15px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
 .card {
-    flex-basis: 300px;
-    background-color: orange;
-    border: 1px solid white;
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    flex-shrink: 3;
+    text-align: center;
+    margin: 0 10px;
 }
 
 .card > img {
-    margin-bottom: 10px;
+    max-width:300px;
+    max-height:200px;
+    margin-bottom: -15px;
 }
